@@ -20,23 +20,13 @@ It extracts comments using the YouTube Data API, preprocesses them, applies a TF
 
 🛠️ Tech Stack
 Component	Technology Used
-Language	Python
-Framework	Flask
-ML Model	Pickle (.pkl)
-Feature Extraction	TF-IDF
-API	YouTube Data API (v3)
-Frontend UI	HTML, CSS
-Libraries	NLTK, Regex, sklearn
-📂 Project Structure
-📦 youtube-sentiment-analysis
-│
-├── app.py                      # Flask application
-├── youtube_sentiment_model.pkl # Trained ML model
-├── youtube_tfidf_vectorizer.pkl# TF-IDF vectorizer
-├── templates/
-│   └── index.html              # Frontend UI
-├── static/                     # (Optional CSS/JS files)
-└── README.md                   # Project documentation
+Language--Python
+Framework--Flask
+ML Model--Pickle (.pkl)
+Feature Extraction--TF-IDF
+API--YouTube Data API (v3)
+Frontend--HTML, CSS
+Libraries--NLTK, Regex, sklearn
 
 🔑 Setup Instructions
 ✅ 1. Clone the repository
