@@ -1,5 +1,6 @@
 # YouTube-Comments-Sentiment-Analysis
 Built a sentiment analysis model using YouTube API, TF-IDF, and machine learning to classify user comments and visualize sentiment trends.
+
 📊 YouTube Comment Sentiment Analysis (Flask + ML)
 
 This project analyzes YouTube video comments using Machine Learning and Flask Web App.
@@ -12,10 +13,15 @@ It extracts comments using the YouTube Data API, preprocesses them, applies a TF
 🚀 Features
 
 ✅ Fetch comments from any YouTube video using URL
+
 ✅ Clean and preprocess text (stopwords, punctuations, stemming)
+
 ✅ TF-IDF feature extraction
+
 ✅ Machine Learning-based sentiment classification
+
 ✅ Flask web interface to display sentiments
+
 ✅ Separate lists for positive, neutral, and negative comments
 
 🛠️ Tech Stack
@@ -37,15 +43,18 @@ Libraries--NLTK, Regex, sklearn
 
 🔑 Setup Instructions
 ✅ 1. Clone the repository
+
 git clone https://github.com/your-username/youtube-sentiment-analysis.git
 cd youtube-sentiment-analysis
 
 ✅ 2. Create a virtual environment
+
 python -m venv venv
 source venv/Scripts/activate  # Windows
 source venv/bin/activate      # Mac/Linux
 
 ✅ 3. Install Dependencies
+
 pip install -r requirements.txt
 
 
@@ -54,6 +63,7 @@ Or manually:
 pip install flask nltk scikit-learn google-api-python-client pickle-mixin
 
 ✅ 4. Download NLTK resources
+
 import nltk
 nltk.download('stopwords')
 
@@ -64,6 +74,7 @@ In app.py, replace:
 api_key = "YOUR_API_KEY"
 
 ▶️ Run the Project
+
 python app.py
 
 
@@ -102,9 +113,13 @@ Predictions mapped as:
 🛡️ Future Enhancements
 
 🔹 Emoji Support
+
 🔹 Multilingual Comment Handling
+
 🔹 Bar/Pie Chart Visualizations
+
 🔹 Downloadable Report
+
 🔹 Authentication & Dashboard
 
 📜 License
