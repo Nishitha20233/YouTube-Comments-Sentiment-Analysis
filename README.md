@@ -20,12 +20,19 @@ It extracts comments using the YouTube Data API, preprocesses them, applies a TF
 
 🛠️ Tech Stack
 Component	Technology Used
+
 Language--Python
+
 Framework--Flask
+
 ML Model--Pickle (.pkl)
+
 Feature Extraction--TF-IDF
+
 API--YouTube Data API (v3)
+
 Frontend--HTML, CSS
+
 Libraries--NLTK, Regex, sklearn
 
 🔑 Setup Instructions
