@@ -40,7 +40,7 @@ def predict_sentiment(comment):
 
 # === YouTube comment extractor ===
 def get_video_comments(video_id):
-    api_key = "AIzaSyBA3b5meeHY8esIGjGoBt64cSp8f9GDfXk"  # 🔒 Replace this with your actual API key
+    api_key = "YOUR_API_KEY"  # 🔒 Replace this with your actual API key
     youtube = build('youtube', 'v3', developerKey=api_key)
     comments = []
     next_page_token = None
@@ -102,4 +102,5 @@ def index():
                            neutrals=neutral_comments)
 
 if __name__ == "__main__":
+
     app.run(debug=True)
